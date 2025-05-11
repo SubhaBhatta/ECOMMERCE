@@ -1,11 +1,10 @@
 import React from "react";
-import About from "../components/about/about";
 
 function about() {
   return (
-    <div>
-      <About />
-    </div>
+    <>
+      <p>THIS IS A E-COMMERCE</p>
+    </>
   );
 }
 

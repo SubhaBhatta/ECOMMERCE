@@ -1,9 +1,25 @@
-import React from 'react'
+import React from "react";
+import "../../assets/css/footer.css";
 
-function footer() {
+function Footer() {
   return (
-    <div>footer</div>
-  )
+    <footer className="footer">
+      <div className="footer-content">
+        <p> © 2025 MySite. All rights reserved.</p>
+        <ul className="footer-links">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Terms of Service</a>
+          </li>
+          <li>
+            <a href="#">Support</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  );
 }
 
-export default footer
+export default Footer;
