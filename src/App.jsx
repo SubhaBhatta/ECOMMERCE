@@ -5,6 +5,7 @@ import About from "./pages/about";
 import ContactUs from "./components/contacts/ContactUs";
 import Navbar from "./components/layout/navbar";
 import Footer from "./components/layout/footer";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<ContactUs />} />
+        <Route path="/*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </Router>
